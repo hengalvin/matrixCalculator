@@ -54,7 +54,7 @@ ROOT_URLCONF = 'matrixCalculator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/alvin/github/matrixCalculator/calculator/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
